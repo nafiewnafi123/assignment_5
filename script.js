@@ -29,9 +29,9 @@ const getMealInput = () => {
         mealErrorString = `<h2 class="meal-error">Sorry!We don't find any meal..</h2>`;
         mealError.innerHTML = mealErrorString;
       });
-    // bonus part
+   
   };
-  // Get Meal Input
+ 
   
   
   const getIngredients = (mealsIngredients) => {
@@ -44,7 +44,7 @@ const getMealInput = () => {
         ingredientsOfMeal(meal[0]);
       });
   };
-  // input  of the meal which  ingredient i need
+ 
   
   
   const ingredientsOfMeal = (mealsIngredients) => {
@@ -74,4 +74,4 @@ const getMealInput = () => {
     
     `;
   };
-  // ingredient function
+ 
