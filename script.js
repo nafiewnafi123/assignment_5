@@ -26,12 +26,12 @@ const getMealInput = () => {
       .catch(function () {
         const mealError = document.getElementById("meal-list");
         let mealErrorString = "";
-        mealErrorString = `<h2 class="meal-error">Sorry!We don't find any meal..</h2>`;
+        mealErrorString = `<h2 class="meal-error">Sorry! No meal found and thank you </h2>`;
         mealError.innerHTML = mealErrorString;
       });
    
   };
- 
+
   
   
   const getIngredients = (mealsIngredients) => {
@@ -44,7 +44,7 @@ const getMealInput = () => {
         ingredientsOfMeal(meal[0]);
       });
   };
- 
+
   
   
   const ingredientsOfMeal = (mealsIngredients) => {
@@ -74,4 +74,3 @@ const getMealInput = () => {
     
     `;
   };
- 
